@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "domain": "vfx",
+  "domainLabel": "VFX and rendering",
+  "sortOrder": 30,
+  "agentSummary": "Adds tools for the legacy Composure compositing plugin: compositing element actors, parent/child layer trees, input/transform/output passes, render resolution, opacity and target cameras.",
+  "enablesAgentTo": [
+    "List, create, rename, nest and delete compositing elements",
+    "Author input, transform and output passes on an element with validated properties",
+    "Set element render resolution, opacity and target camera",
+    "Request a compositing render or a named render target for verification"
+  ],
+  "whenToEnable": "Your project uses the (legacy) Composure plugin for real-time compositing shots.",
+  "isRecommended": false,
+  "isBetaVersion": false,
+  "isExperimentalVersion": false
+}

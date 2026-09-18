@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "domain": "world",
+  "domainLabel": "World and procedural",
+  "sortOrder": 22,
+  "agentSummary": "Attach existing validated lake and river bodies to Mesh Terrain in UE 5.8+.",
+  "enablesAgentTo": ["Inspect water terrain attachments", "Attach and detach lake and river modifiers", "Configure water terrain modifier priority and vertical reach"],
+  "whenToEnable": "Your project enables Water, Mesh Partition and Mesh Partition Water.",
+  "isBetaVersion": false,
+  "isExperimentalVersion": true,
+  "isRecommended": false
+}

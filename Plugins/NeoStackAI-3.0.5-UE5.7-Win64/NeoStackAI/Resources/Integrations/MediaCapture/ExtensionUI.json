@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "domain": "vfx",
+  "domainLabel": "VFX and rendering",
+  "sortOrder": 40,
+  "agentSummary": "Adds tools for Media IO capture: create media outputs (image sequences via FileMediaOutput and any installed Media IO output), start captures from render targets, the active scene viewport or media textures, and poll job status until frames are on disk.",
+  "enablesAgentTo": [
+    "Create and validate media outputs such as PNG/EXR image-sequence outputs",
+    "Capture a render target, the active scene viewport or a media texture to files",
+    "Poll capture jobs, stop them and verify written frames"
+  ],
+  "whenToEnable": "Your project uses the Media IO Framework to capture rendered frames to disk or to SDI/NDI style outputs.",
+  "isRecommended": false,
+  "isBetaVersion": false,
+  "isExperimentalVersion": false
+}

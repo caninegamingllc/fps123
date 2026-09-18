@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "records": {
+    "prompt": {
+      "kind": "prompt",
+      "type": "prompt",
+      "content": [{ "type": "text", "text": "hello" }]
+    },
+    "update": {
+      "kind": "update",
+      "update": {
+        "sessionUpdate": "agent_message_chunk",
+        "content": { "type": "text", "text": "world" }
+      }
+    },
+    "permissionRequest": {
+      "kind": "permissionRequest",
+      "type": "permissionRequest",
+      "permissionId": "permission-1",
+      "request": { "toolCall": { "title": "Write a file" } }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "id": "neostack-hostd",
+  "platform": "Win64",
+  "executable": "neostack-agent-hostd.exe",
+  "sizeBytes": 12012544,
+  "identity": "sha256:aefa40008948d7859f2870e612566c2fe1e95dc4139cb3eede4e3ec479a06d1e"
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "domain": "animation",
+  "domainLabel": "Animation and characters",
+  "sortOrder": 40,
+  "agentSummary": "Adds tools for MetaHuman character workflows: Creator face, body and makeup editing, MetaHuman Animator Performance processing as pollable jobs with animation export, and Creator character export (DCC, DNA, geometry, materials, posed DNA on UE 5.8).",
+  "enablesAgentTo": [
+    "Inspect MetaHuman-related assets",
+    "Help configure character customization workflows",
+    "Assist with MetaHuman animation and asset setup",
+    "Configure, start, poll and cancel MetaHuman Animator Performance processing and export the result as an Animation Sequence or Level Sequence",
+    "Export Creator characters as DCC packages, DNA assets or files, skeletal meshes and material instances (UE 5.8)"
+  ],
+  "whenToEnable": "Your project uses MetaHuman characters, MetaHuman Animator performances or MetaHuman SDK assets.",
+  "isRecommended": false,
+  "isBetaVersion": true,
+  "isExperimentalVersion": false
+}

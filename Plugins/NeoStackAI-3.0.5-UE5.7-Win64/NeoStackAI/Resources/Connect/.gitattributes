@@ -1,0 +1,3 @@
+# The native producer verifies these shared bytes before packaging.
+*.json text eol=lf
+*.txt text eol=lf

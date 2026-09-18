@@ -1,0 +1,3 @@
+NeoStack Connect native binaries are proprietary software, copyright Betide Studio.
+No source-code license is granted.
+Product terms: https://neostack.dev/terms

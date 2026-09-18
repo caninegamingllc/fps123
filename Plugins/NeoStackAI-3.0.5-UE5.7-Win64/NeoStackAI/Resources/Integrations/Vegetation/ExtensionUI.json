@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "domain": "world",
+  "domainLabel": "World and procedural",
+  "sortOrder": 22,
+  "agentSummary": "Adds tools for Procedural Vegetation Editor assets in UE 5.8+: inner PCG graph authoring, export-node settings, generation jobs and the editor export command.",
+  "enablesAgentTo": [
+    "Open ProceduralVegetation assets and edit their embedded PCG graph",
+    "List, add and configure Export nodes with validated FPVExportParams",
+    "Generate vegetation graphs as the PV editor does and inspect the mesh data reaching each Export node",
+    "Dispatch the editor's Export command from an interactive session"
+  ],
+  "whenToEnable": "Your UE 5.8+ project uses the experimental Procedural Vegetation Editor plugin (requires the PCG integration).",
+  "isBetaVersion": false,
+  "isExperimentalVersion": true,
+  "isRecommended": false
+}

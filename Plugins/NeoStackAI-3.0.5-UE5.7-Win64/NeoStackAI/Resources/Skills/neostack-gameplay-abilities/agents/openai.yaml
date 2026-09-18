@@ -1,0 +1,4 @@
+interface:
+  display_name: "NeoStack Gameplay Abilities"
+  short_description: "Author and verify Unreal GAS workflows"
+  default_prompt: "Use $neostack-gameplay-abilities to build and verify a generalized Unreal Gameplay Ability System workflow."

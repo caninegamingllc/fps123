@@ -1,0 +1,36 @@
+{
+  "author": {
+    "name": "Betide Studio"
+  },
+  "compatibility": {
+    "platforms": [
+      "@PLATFORM@"
+    ]
+  },
+  "description": "Connect to an Unreal editor running NeoStack AI.",
+  "display_name": "NeoStack Connect",
+  "license": "UNLICENSED",
+  "manifest_version": "0.3",
+  "name": "neostack-connect",
+  "server": {
+    "entry_point": "bin/@EXECUTABLE@",
+    "mcp_config": {
+      "args": [],
+      "command": "${__dirname}/bin/@EXECUTABLE@",
+      "env": {
+        "NEOSTACK_PROJECT_DIR": "${user_config.project_dir}"
+      }
+    },
+    "type": "binary"
+  },
+  "user_config": {
+    "project_dir": {
+      "default": "",
+      "description": "Optional project pin; multiple running editors require explicit selection.",
+      "required": false,
+      "title": "Unreal project directory",
+      "type": "directory"
+    }
+  },
+  "version": "@VERSION@"
+}

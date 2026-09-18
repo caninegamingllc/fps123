@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "domain": "world",
+  "domainLabel": "World and procedural",
+  "sortOrder": 20,
+  "agentSummary": "Adds tools for the experimental Gameplay Cameras plugin (UE 5.6+): camera, camera rig, rig proxy, camera shake and variable collection assets, rig node-tree and transition editing, Gameplay Camera actor placement and active-rig readback in PIE.",
+  "enablesAgentTo": [
+    "Create camera assets with a Single, StateTree, PriorityQueue or Blueprint director",
+    "Build camera rig node trees (Sequence, Offset, Boom Arm, framing, blends) and transitions without opening the editor",
+    "Author camera variables and drive rig parameters from them",
+    "Place GameplayCameraActor / GameplayCameraRigActor bound to an asset and configure their components",
+    "Activate a placed camera in PIE and read back the active camera rig and evaluated pose"
+  ],
+  "whenToEnable": "Your UE 5.6+ project uses the experimental Gameplay Cameras plugin (enabled by default) for data-driven cameras.",
+  "isBetaVersion": false,
+  "isExperimentalVersion": true,
+  "isRecommended": false
+}

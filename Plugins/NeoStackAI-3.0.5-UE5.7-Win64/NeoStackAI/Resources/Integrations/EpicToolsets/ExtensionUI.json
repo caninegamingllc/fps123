@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "domain": "pipeline",
+  "domainLabel": "Pipeline",
+  "sortOrder": 20,
+  "agentSummary": "Bridges Epic's UE 5.8 experimental toolsets: reads and (when allowed) writes Epic AgentSkill assets, mirrors them into the NeoStack skill catalogue, drives the FileSandbox around content saves, and reports which Epic toolset tools NeoStack already covers.",
+  "enablesAgentTo": [
+    "List, read and import Epic UAgentSkill assets as read-only NeoStack skills",
+    "Create, update and delete Epic AgentSkill Blueprints inside allow-listed folders when write-through is enabled",
+    "Enter, inspect, persist or discard a FileSandbox around content saves",
+    "Generate a live coverage matrix of Epic's Experimental/Toolsets plugins versus NeoStack verbs"
+  ],
+  "whenToEnable": "Your project runs UE 5.8 with the experimental ToolsetRegistry plugin (Epic's editor AI toolsets) and you want NeoStack agents to share skills with Epic's assistant or sandbox their content saves.",
+  "isRecommended": false,
+  "isBetaVersion": false,
+  "isExperimentalVersion": true
+}

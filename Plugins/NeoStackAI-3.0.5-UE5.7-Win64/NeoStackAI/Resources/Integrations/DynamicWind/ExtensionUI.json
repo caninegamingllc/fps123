@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "domain": "world",
+  "domainLabel": "World and procedural",
+  "sortOrder": 22,
+  "agentSummary": "Adds tools for the experimental Dynamic Wind plugin in UE 5.7+: Pivot Painter tree conversion, wind skeletal data authoring, per-world wind parameters and wind-driven instanced foliage placement.",
+  "enablesAgentTo": [
+    "Convert Pivot Painter 2 trees into wind-ready skeletal meshes and skeletons",
+    "Author and inspect Dynamic Wind skeletal data (simulation groups, bone chains) headlessly",
+    "Set and read back the editor or PIE world's wind direction, speed, amplitude and turbulence texture",
+    "Place instanced skinned foliage driven by a DynamicWindData transform provider"
+  ],
+  "whenToEnable": "Your UE 5.7+ project uses the experimental Dynamic Wind plugin for Nanite foliage.",
+  "isBetaVersion": false,
+  "isExperimentalVersion": true,
+  "isRecommended": false
+}

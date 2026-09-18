@@ -1,0 +1,4 @@
+interface:
+  display_name: "NeoStack EQS"
+  short_description: "Author and verify Unreal EQS queries"
+  default_prompt: "Use $neostack-eqs to build and verify a generalized Unreal EQS workflow."

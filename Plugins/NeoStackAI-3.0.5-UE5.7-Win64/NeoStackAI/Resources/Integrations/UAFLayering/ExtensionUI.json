@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "domain": "animation",
+  "domainLabel": "Animation and characters",
+  "sortOrder": 65,
+  "agentSummary": "Adds tools for UAF Layer Stacks (UE 5.8, experimental): author layers over animation assets, set default weights and blend times, bind a stack to an actor and drive layer enable, disable and weight events in Play In Editor.",
+  "enablesAgentTo": [
+    "Create UAF Layer Stack assets and inspect their layers, weights and blend settings",
+    "Add, configure and remove layers backed by animation sequences, blend spaces or UAF graphs",
+    "Bind a layer stack to an actor's UAF component and verify layer weights in PIE through the skeletal mesh pose"
+  ],
+  "whenToEnable": "Your project uses the experimental Unreal Animation Framework layering plugin (UAFLayering, UE 5.8).",
+  "isRecommended": false,
+  "isBetaVersion": false,
+  "isExperimentalVersion": true
+}

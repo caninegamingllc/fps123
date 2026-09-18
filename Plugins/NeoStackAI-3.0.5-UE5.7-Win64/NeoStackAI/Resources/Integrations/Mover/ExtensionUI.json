@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "domain": "world",
+  "domainLabel": "World and procedural",
+  "sortOrder": 10,
+  "agentSummary": "Adds tools for Mover 2.0 movement components: inspect and author movement modes, queue layered moves, modifiers and instant effects, and verify velocity or mode changes in Play In Editor.",
+  "enablesAgentTo": [
+    "Inspect a Mover component's movement modes, shared settings and backend",
+    "Add, configure and remove movement modes with Undo support",
+    "Queue layered moves, movement modifiers and instant effects during PIE",
+    "Sample velocity and mode over frames to verify a movement change"
+  ],
+  "whenToEnable": "Your project uses the experimental Mover plugin (UE 5.5+) for character or vehicle movement.",
+  "isRecommended": false,
+  "isBetaVersion": false,
+  "isExperimentalVersion": true
+}

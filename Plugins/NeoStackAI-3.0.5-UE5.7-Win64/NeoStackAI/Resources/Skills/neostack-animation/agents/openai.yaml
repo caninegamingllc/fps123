@@ -1,0 +1,4 @@
+interface:
+  display_name: "NeoStack Animation"
+  short_description: "Author animation assets and Motion Warping"
+  default_prompt: "Use $neostack-animation to author and verify an Unreal animation sequence or montage."

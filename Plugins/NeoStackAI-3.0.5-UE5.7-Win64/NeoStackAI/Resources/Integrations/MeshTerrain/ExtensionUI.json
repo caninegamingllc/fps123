@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "domain": "world",
+  "domainLabel": "World and procedural",
+  "sortOrder": 21,
+  "agentSummary": "Adds tools for Mesh Partition terrain and its definition and transformer pipeline assets in UE 5.8+.",
+  "enablesAgentTo": [
+    "Inspect terrain actors and modifiers",
+    "Create bounded terrain sections and configure modifiers",
+    "Inspect and configure terrain definitions and transformer pipelines"
+  ],
+  "whenToEnable": "Your UE 5.8+ project uses the experimental Mesh Partition plugin.",
+  "isBetaVersion": false,
+  "isExperimentalVersion": true,
+  "isRecommended": false
+}

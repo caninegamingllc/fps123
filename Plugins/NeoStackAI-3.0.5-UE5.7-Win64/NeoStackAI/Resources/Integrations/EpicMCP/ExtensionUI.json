@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "domain": "pipeline",
+  "domainLabel": "Pipeline",
+  "sortOrder": 10,
+  "agentSummary": "Connects NeoStack to Epic's in-editor MCP server (UE 5.8 experimental ModelContextProtocol plugin): opt-in publication of NeoStack tools and skills into Epic's server, allow-listed use of Epic MCP tools and MCP Tool Library assets, and a port coexistence report.",
+  "enablesAgentTo": [
+    "Report whether Epic's MCP server is running, on which port, and whether it collides with NeoStack's",
+    "Discover Epic's MCP tools (list_toolsets, describe_toolset, call_tool) and Blueprint MCP Tool Library functions with their JSON schemas",
+    "Call allow-listed Epic MCP tools with NeoStack's single-flight and timeout policy",
+    "Read Epic MCP resources, including NeoStack skills served as neostack://skills/<name>",
+    "Publish NeoStack's execute_script, help, skills, integrations and status into Epic's server for the session (opt-in)"
+  ],
+  "whenToEnable": "Your project enables Epic's experimental ModelContextProtocol plugin (UE 5.8) and you want Epic's MCP clients or assistant to reach NeoStack, or NeoStack agents to reach Epic's MCP tools.",
+  "isRecommended": false,
+  "isBetaVersion": false,
+  "isExperimentalVersion": true
+}

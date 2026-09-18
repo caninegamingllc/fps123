@@ -1,0 +1,47 @@
+# Visual Studio / IDE
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Generated project files
+*.sln
+*.xcodeproj
+*.xcworkspace
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Unreal generated (project-level)
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+/Build/
+
+# Plugin intermediates (keep plugin Binaries — NeoStack ships prebuilt)
+Plugins/**/Intermediate/
+Plugins/**/Saved/
+Plugins/**/DerivedDataCache/
+
+# Regenerable map lighting / built data
+*_BuiltData.uasset
+
+# GitHub rejects files over 100MB; org LFS quota is already exhausted
+Content/FPS_Controller/Effects/Textures/Flipbooks/T_SmokeSwirl_3_Flipbook_CHANNELPACK.uasset
+Content/FPS_Controller/Demo/MetaHumans/Oskar/Face/FaceNormal_MAIN_LOD1.uasset
+
+# Local NeoStack / OS junk
+.neostack/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+crashinfo--*
+*-backup-*.*

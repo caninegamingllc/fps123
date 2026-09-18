@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://neostack.dev/schemas/extension-ui.schema.json",
+  "title": "NeoStack Extension UI Metadata",
+  "description": "Human-readable metadata for NeoStack extension cards in the editor and cloud catalog.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "domain",
+    "domainLabel",
+    "sortOrder",
+    "agentSummary",
+    "enablesAgentTo",
+    "whenToEnable",
+    "isRecommended"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "domain": {
+      "type": "string",
+      "enum": [
+        "recommended",
+        "animation",
+        "ai",
+        "vfx",
+        "world",
+        "input",
+        "pipeline",
+        "audio",
+        "dmx",
+        "motion-design"
+      ]
+    },
+    "domainLabel": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 2147483647
+    },
+    "agentSummary": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "enablesAgentTo": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "\\S"
+      }
+    },
+    "whenToEnable": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "isRecommended": {
+      "type": "boolean"
+    },
+    "isBetaVersion": {
+      "type": "boolean"
+    },
+    "isExperimentalVersion": {
+      "type": "boolean"
+    },
+    "$schema": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "Optional editor schema reference; not used to select the runtime schema version."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "Optional authoring label; runtime identity remains the integration catalog entry."
+    }
+  }
+}

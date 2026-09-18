@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "domain": "vfx",
+  "domainLabel": "VFX and rendering",
+  "sortOrder": 41,
+  "agentSummary": "Adds hardware H.264/H.265 video to playtest recordings: playtest_record_start writes an MP4 next to the still track when the GPU encoder is available.",
+  "enablesAgentTo": [
+    "Record a PIE session to a playable MP4 through NVENC, AMF or VideoToolbox",
+    "Keep the timestamped still track and marks aligned with the video timeline",
+    "Hand a real video file to reviewers instead of a folder of screenshots"
+  ],
+  "whenToEnable": "You want playtest recordings as video. Also enable the engine codec plugin for your GPU: NVCodecs (NVIDIA), AMFCodecs (AMD) or VTCodecs (Apple).",
+  "isRecommended": false,
+  "isBetaVersion": true,
+  "isExperimentalVersion": false
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "domain": "animation",
+  "domainLabel": "Animation and characters",
+  "sortOrder": 65,
+  "agentSummary": "Create, compile, instance and bake Mutable Customizable Objects for character customization.",
+  "enablesAgentTo": [
+    "Create Customizable Object assets and set their compile options",
+    "Compile a Customizable Object as a pollable job",
+    "Set instance parameters and generate skeletal meshes",
+    "Bake an instance to skeletal mesh, material and texture assets"
+  ],
+  "whenToEnable": "Your project uses the Mutable plugin for character customization (UE 5.7+).",
+  "isRecommended": false,
+  "isBetaVersion": true,
+  "isExperimentalVersion": false
+}

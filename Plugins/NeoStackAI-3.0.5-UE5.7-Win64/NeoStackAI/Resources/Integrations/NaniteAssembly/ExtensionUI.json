@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "domain": "world",
+  "domainLabel": "World and procedural",
+  "sortOrder": 30,
+  "agentSummary": "Build Nanite Assembly static meshes from instanced parts.",
+  "enablesAgentTo": [
+    "Build and inspect Nanite Assembly meshes"
+  ],
+  "whenToEnable": "Your project uses Nanite Assembly authoring (UE 5.7+).",
+  "isRecommended": false
+}

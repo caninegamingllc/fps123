@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "neostack-connect",
+  "platform": "win32-x64",
+  "version": "0.1.0",
+  "sourceCommit": "61a3009a53fd686c743fc6592a6005f03dd95b64",
+  "sourceDirty": false,
+  "sourceTreeSha256": "befc642c1e13aa20008bea61063491c0f2486078c61fc8c147af9a7a719c334f",
+  "executable": "neostack-bridge.exe",
+  "sizeBytes": 3189248,
+  "sha256": "ba72a0686bcf6fed6cbe440edb30e4e91b56bb1089d61b0f79152642dac7bd52"
+}
